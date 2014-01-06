@@ -1,0 +1,28 @@
+{
+    "name": "anabolic",
+    "version": "0.1.0",
+    "homepage": "https://github.com/sadams/anabolic-js",
+    "description": "Very, VERY lightweight JS dependency injection/resolution library (loosely based on AMD)",
+    "keywords": [
+        "requirejs",
+        "amd",
+        "di",
+        "dependency injection",
+        "dependency resolution"
+    ],
+    "author": {
+        "name": "Sam Adams",
+        "url": "https://github.com/sadams"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sadams/anabolic-js"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-jasmine": "*",
+        "grunt-contrib-uglify": "*"
+    },
+    "dependencies": {}
+}
