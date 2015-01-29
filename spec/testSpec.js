@@ -55,7 +55,7 @@ describe("Define", function () {
 
     expect(barSpy).toHaveBeenCalled();
 
-    expect(barSpy.calls.length).toEqual(1);
+    expect(barSpy.calls.count()).toEqual(1);
   });
 
   it ('takes only string deps', function() {
